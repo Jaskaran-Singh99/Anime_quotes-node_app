@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.5)), url('background-image-3.jpg');
+  
+    height:100vh;
+    width:100%;
+   
+    
+}
+
+.heading{
+    color:white;
+    text-align:center;
+    margin:20px auto;
+    font-size:50px;
+    font-weight:900;
+    font-family:'Dancing Script'
+
+}
+.quote-container{
+    position:absolute;
+    background-color:#000000;
+    border-radius:10px;
+    box-shadow: 4px 2px 18px 4px rgba(0, 0, 0, 0.75);
+    top:15%;
+    left:50%;
+    transform:translateX(-50%);
+    height:400px;
+    width:50%;
+    color:white;
+}
+#quotes{
+    width:90%;
+    margin:20px auto;
+    
+    font-size:30px;
+    font-family:'Dancing Script';
+}
+#author{
+    /* position:absolute;
+    top:65%;
+    left:80%; */
+    font-size: 20px;
+    font-weight:100;
+    font-family:'Dancing Script';
+    text-transform:capitalize;
+    width:90%;
+    text-align:right;
+}
+#btn{
+    font-size:20px;
+    position:absolute;
+    top:80%;
+    border:none;
+    outline:none;
+    padding:10px 30px;
+    border-radius:5px;
+    font-family: 'Dancing Script';
+    cursor:pointer;
+    left:50%;
+    transform:translateX(-50%);
+    transition:all 0.5s ease;
+   
+    box-shadow: 4px 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width:1000px) {
+    .quote-container{
+        width:90%;
+    }
+}
+@media screen and (max-width:1000px) {
+    #quotes{
+        font-size:23px;
+    }
+}

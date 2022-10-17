@@ -1,0 +1,16 @@
+{
+  "name": "quotesapi",
+  "version": "1.0.0",
+  "description": "This app generates random quotes written by writers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaskaran singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
