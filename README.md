@@ -1,13 +1,12 @@
 
-# Node js CRUD application/Task Manager
+# Anime quotes generator
 
-This is a basic nodejs crud application where the user
-can create, update or delete data 
+This app uses axios to fetch the json data, everytime the user clicks on the 'new quotes' button a new random anime quote will be fetched using an API.
 
 
 ## Tech Stack
 
- Nodejs , Express, MongoDB, HTML, CSS
+ Nodejs , Express, MongoDB, HTML, CSS, Axios
 
 
 ## Run Locally
@@ -23,10 +22,10 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  nodemon index.js
 ```
 
-Go to http://localhost:4000/ on your device.
-(Use Postman or thunderclient to post or delete the data)
+Go to http://localhost:3000/ on your device.
+
 
 
